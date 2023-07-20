@@ -1,0 +1,81 @@
+/* Custom styles for the assignment */
+
+body {
+    /* Add any body styles here if needed */
+    padding-top: 70px; /* To prevent content from being hidden behind the fixed navbar */
+}
+
+.navbar {
+    /* Add styles for the navbar here */
+    margin-bottom: 0; /* Remove default margin for the navbar */
+    border: none; /* Remove border from the navbar */
+}
+
+.navbar-default {
+    background-color: #113343; /* Set the background color for the navbar */
+}
+
+.navbar-default .navbar-brand {
+    color: #fff; /* Set the text color for the company name in the navbar */
+}
+
+/* Add any other styles for the mobile menu here */
+
+h1 {
+    /* Add styles for the page heading here */
+}
+
+.main-section {
+    /* Add styles for the main content section here */
+    background-color: #e1f1ff; /* Light blue background color */
+    padding: 20px;
+}
+
+/* Add any custom styles for the content columns here */
+
+.card {
+    /* Add styles for the cards here */
+    margin-bottom: 20px;
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the cards */
+}
+
+.card-img-top {
+    /* Add styles for the card images here */
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0; /* Rounded top corners for the card images */
+}
+
+.card-body {
+    /* Add styles for the card body here */
+}
+
+/* Custom styles for responsiveness */
+@media (max-width: 767px) {
+    .main-section {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+}
+
+/* Custom styles for header */
+.container h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #0c0f10; /* Cyan blue light color */
+    font-size: 36px;
+}
+
+/* Custom styles for box-like structure and hover effect */
+.navbar-nav > li > a {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #508350; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    color: #11935f; /* Green text color */
+}
+
+.navbar-nav > li > a:hover {
+    background-color: #767451; /* Green background color on hover */
+    color: #fff; /* Text color on hover */
+}
